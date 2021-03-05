@@ -125,8 +125,10 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
-  left: 41.5%;
+  top: -53px;
+  left: -900px;
+  margin-left: 47px;
+  transform: rotate(-20deg);
   /* transform: scale(0.1); */
 }
 
@@ -213,7 +215,6 @@ body {
 .wish-hbd {
   font-size: 3em;
   margin: 0;
-  text-transform: uppercase;
 }
 
 .wish h5 {
