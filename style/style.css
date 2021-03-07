@@ -132,19 +132,19 @@ body {
   /* transform: scale(0.1); */
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .six .hat {
     position: absolute;
     width: 200px;
     top: -130px;
     left: -1050px;
-    /* margin-left: 10px; */
+    margin-left: 15px;
     transform: rotate(-20deg);
     /* transform: scale(0.1); */
   }
 }
 
-@media screen and (max-width: 731px) {
+@media only screen and (min-width: 731px) {
   .six .hat {
     position: absolute;
     width: 200px;
